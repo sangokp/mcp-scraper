@@ -1,0 +1,25 @@
+{
+  "name": "@aegis-ai/mcp-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for intelligent web scraping with AI-powered data extraction",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "aegis-mcp-scraper": "src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.50.0"
+  },
+  "keywords": ["mcp", "scraper", "web-scraping", "ai-extraction", "claude", "playwright"],
+  "author": "AEGIS AI Cooperative <g1@aegisos.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aegis-ai-coop/mcp-scraper"
+  }
+}
