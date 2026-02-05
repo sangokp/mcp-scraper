@@ -7,6 +7,11 @@
   "bin": {
     "aegis-mcp-scraper": "src/index.ts"
   },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "bun src/index.ts",
     "dev": "bun --watch src/index.ts"
@@ -15,11 +20,21 @@
     "@modelcontextprotocol/sdk": "^1.0.0",
     "playwright": "^1.50.0"
   },
-  "keywords": ["mcp", "scraper", "web-scraping", "ai-extraction", "claude", "playwright"],
+  "keywords": ["mcp", "scraper", "web-scraping", "ai-extraction", "claude", "playwright", "model-context-protocol"],
   "author": "AEGIS AI Cooperative <g1@aegisos.ai>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aegis-ai-coop/mcp-scraper"
+    "url": "https://github.com/sangokp/mcp-scraper.git"
+  },
+  "homepage": "https://github.com/sangokp/mcp-scraper#readme",
+  "bugs": {
+    "url": "https://github.com/sangokp/mcp-scraper/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
   }
 }
